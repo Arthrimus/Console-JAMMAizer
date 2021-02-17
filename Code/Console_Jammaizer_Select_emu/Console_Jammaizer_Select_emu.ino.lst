@@ -1,0 +1,1146 @@
+
+C:\Users\caleb\AppData\Local\Temp\arduino_build_656201/Console_Jammaizer_Select_emu.ino.elf:     file format elf32-avr
+
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+__vectors():
+   0:	34 c0       	rjmp	.+104    	; 0x6a <__ctors_end>
+   2:	43 c0       	rjmp	.+134    	; 0x8a <__bad_interrupt>
+   4:	42 c0       	rjmp	.+132    	; 0x8a <__bad_interrupt>
+   6:	41 c0       	rjmp	.+130    	; 0x8a <__bad_interrupt>
+   8:	40 c0       	rjmp	.+128    	; 0x8a <__bad_interrupt>
+   a:	3f c0       	rjmp	.+126    	; 0x8a <__bad_interrupt>
+   c:	3e c0       	rjmp	.+124    	; 0x8a <__bad_interrupt>
+   e:	3d c0       	rjmp	.+122    	; 0x8a <__bad_interrupt>
+  10:	3c c0       	rjmp	.+120    	; 0x8a <__bad_interrupt>
+  12:	3b c0       	rjmp	.+118    	; 0x8a <__bad_interrupt>
+  14:	3a c0       	rjmp	.+116    	; 0x8a <__bad_interrupt>
+  16:	aa c0       	rjmp	.+340    	; 0x16c <__vector_11>
+  18:	38 c0       	rjmp	.+112    	; 0x8a <__bad_interrupt>
+  1a:	37 c0       	rjmp	.+110    	; 0x8a <__bad_interrupt>
+  1c:	36 c0       	rjmp	.+108    	; 0x8a <__bad_interrupt>
+  1e:	35 c0       	rjmp	.+106    	; 0x8a <__bad_interrupt>
+  20:	34 c0       	rjmp	.+104    	; 0x8a <__bad_interrupt>
+  22:	33 c0       	rjmp	.+102    	; 0x8a <__bad_interrupt>
+  24:	32 c0       	rjmp	.+100    	; 0x8a <__bad_interrupt>
+  26:	31 c0       	rjmp	.+98     	; 0x8a <__bad_interrupt>
+
+00000028 <__trampolines_end>:
+__trampolines_start():
+  28:	00 00       	nop
+  2a:	20 00       	.word	0x0020	; ????
+  2c:	23 00       	.word	0x0023	; ????
+
+0000002e <digital_pin_to_timer_PGM>:
+  2e:	00 00 01 00 00 00 00 00 00 00 00 04 00 00 03 00     ................
+
+0000003e <port_to_output_PGM>:
+  3e:	00 00 22 00 25 00                                   ..".%.
+
+00000044 <port_to_mode_PGM>:
+  44:	00 00 21 00 24 00                                   ..!.$.
+
+0000004a <digital_pin_to_port_PGM>:
+  4a:	01 01 01 01 01 01 01 01 02 02 02 02 02 02 02 02     ................
+
+0000005a <digital_pin_to_bit_mask_PGM>:
+  5a:	01 02 04 08 10 20 40 80 01 02 04 08 10 20 40 80     ..... @...... @.
+
+0000006a <__ctors_end>:
+__dtors_end():
+  6a:	11 24       	eor	r1, r1
+  6c:	1f be       	out	0x3f, r1	; 63
+  6e:	cf ef       	ldi	r28, 0xFF	; 255
+  70:	d2 e0       	ldi	r29, 0x02	; 2
+  72:	de bf       	out	0x3e, r29	; 62
+  74:	cd bf       	out	0x3d, r28	; 61
+
+00000076 <__do_clear_bss>:
+__do_clear_bss():
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2441
+  76:	21 e0       	ldi	r18, 0x01	; 1
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2442
+  78:	a0 e0       	ldi	r26, 0x00	; 0
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2443
+  7a:	b1 e0       	ldi	r27, 0x01	; 1
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2444
+  7c:	01 c0       	rjmp	.+2      	; 0x80 <.do_clear_bss_start>
+
+0000007e <.do_clear_bss_loop>:
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2446
+  7e:	1d 92       	st	X+, r1
+
+00000080 <.do_clear_bss_start>:
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2448
+  80:	ab 32       	cpi	r26, 0x2B	; 43
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2449
+  82:	b2 07       	cpc	r27, r18
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2450
+  84:	e1 f7       	brne	.-8      	; 0x7e <.do_clear_bss_loop>
+.do_clear_bss_start():
+  86:	bc d0       	rcall	.+376    	; 0x200 <main>
+  88:	a2 c2       	rjmp	.+1348   	; 0x5ce <_exit>
+
+0000008a <__bad_interrupt>:
+__vector_1():
+  8a:	ba cf       	rjmp	.-140    	; 0x0 <__vectors>
+
+0000008c <pinMode.constprop.0>:
+pinMode.constprop.0():
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring_digital.c:32
+
+#define ARDUINO_MAIN
+#include "wiring_private.h"
+#include "pins_arduino.h"
+
+void pinMode(uint8_t pin, uint8_t mode)
+  8c:	cf 93       	push	r28
+  8e:	df 93       	push	r29
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring_digital.c:34
+{
+  if (pin&128) {pin=analogInputToDigitalPin((pin&127));}
+  90:	87 ff       	sbrs	r24, 7
+  92:	04 c0       	rjmp	.+8      	; 0x9c <pinMode.constprop.0+0x10>
+  94:	8f 77       	andi	r24, 0x7F	; 127
+  96:	88 30       	cpi	r24, 0x08	; 8
+  98:	08 f0       	brcs	.+2      	; 0x9c <pinMode.constprop.0+0x10>
+  9a:	8b 5f       	subi	r24, 0xFB	; 251
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring_digital.c:35
+  uint8_t bit = digitalPinToBitMask(pin);
+  9c:	90 e0       	ldi	r25, 0x00	; 0
+  9e:	fc 01       	movw	r30, r24
+  a0:	e6 5a       	subi	r30, 0xA6	; 166
+  a2:	ff 4f       	sbci	r31, 0xFF	; 255
+  a4:	24 91       	lpm	r18, Z
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring_digital.c:36
+  uint8_t port = digitalPinToPort(pin);
+  a6:	86 5b       	subi	r24, 0xB6	; 182
+  a8:	9f 4f       	sbci	r25, 0xFF	; 255
+  aa:	fc 01       	movw	r30, r24
+  ac:	84 91       	lpm	r24, Z
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring_digital.c:39
+  volatile uint8_t *reg, *out;
+
+  if (port == NOT_A_PIN) return;
+  ae:	88 23       	and	r24, r24
+  b0:	c1 f0       	breq	.+48     	; 0xe2 <pinMode.constprop.0+0x56>
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring_digital.c:41
+
+  reg = portModeRegister(port);
+  b2:	90 e0       	ldi	r25, 0x00	; 0
+  b4:	88 0f       	add	r24, r24
+  b6:	99 1f       	adc	r25, r25
+  b8:	fc 01       	movw	r30, r24
+  ba:	ec 5b       	subi	r30, 0xBC	; 188
+  bc:	ff 4f       	sbci	r31, 0xFF	; 255
+  be:	c5 91       	lpm	r28, Z+
+  c0:	d4 91       	lpm	r29, Z
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring_digital.c:42
+  out = portOutputRegister(port);
+  c2:	fc 01       	movw	r30, r24
+  c4:	e2 5c       	subi	r30, 0xC2	; 194
+  c6:	ff 4f       	sbci	r31, 0xFF	; 255
+  c8:	a5 91       	lpm	r26, Z+
+  ca:	b4 91       	lpm	r27, Z
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring_digital.c:51
+                cli();
+    *reg &= ~bit;
+    *out &= ~bit;
+    SREG = oldSREG;
+  } else if (mode == INPUT_PULLUP) {
+    uint8_t oldSREG = SREG;
+  cc:	9f b7       	in	r25, 0x3f	; 63
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring_digital.c:52
+                cli();
+  ce:	f8 94       	cli
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring_digital.c:53
+    *reg &= ~bit;
+  d0:	38 81       	ld	r19, Y
+  d2:	82 2f       	mov	r24, r18
+  d4:	80 95       	com	r24
+  d6:	83 23       	and	r24, r19
+  d8:	88 83       	st	Y, r24
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring_digital.c:54
+    *out |= bit;
+  da:	ec 91       	ld	r30, X
+  dc:	e2 2b       	or	r30, r18
+  de:	ec 93       	st	X, r30
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring_digital.c:55
+    SREG = oldSREG;
+  e0:	9f bf       	out	0x3f, r25	; 63
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring_digital.c:62
+    uint8_t oldSREG = SREG;
+                cli();
+    *reg |= bit;
+    SREG = oldSREG;
+  }
+}
+  e2:	df 91       	pop	r29
+  e4:	cf 91       	pop	r28
+  e6:	08 95       	ret
+
+000000e8 <digitalRead>:
+digitalRead():
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring_digital.c:167
+  }
+}
+
+int digitalRead(uint8_t pin)
+{
+  if (pin&128) {pin=analogInputToDigitalPin((pin&127));}
+  e8:	87 ff       	sbrs	r24, 7
+  ea:	04 c0       	rjmp	.+8      	; 0xf4 <digitalRead+0xc>
+  ec:	8f 77       	andi	r24, 0x7F	; 127
+  ee:	88 30       	cpi	r24, 0x08	; 8
+  f0:	08 f0       	brcs	.+2      	; 0xf4 <digitalRead+0xc>
+  f2:	8b 5f       	subi	r24, 0xFB	; 251
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring_digital.c:168
+  uint8_t timer = digitalPinToTimer(pin);
+  f4:	90 e0       	ldi	r25, 0x00	; 0
+  f6:	fc 01       	movw	r30, r24
+  f8:	e2 5d       	subi	r30, 0xD2	; 210
+  fa:	ff 4f       	sbci	r31, 0xFF	; 255
+  fc:	24 91       	lpm	r18, Z
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring_digital.c:169
+  uint8_t bit = digitalPinToBitMask(pin);
+  fe:	fc 01       	movw	r30, r24
+ 100:	e6 5a       	subi	r30, 0xA6	; 166
+ 102:	ff 4f       	sbci	r31, 0xFF	; 255
+ 104:	34 91       	lpm	r19, Z
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring_digital.c:170
+  uint8_t port = digitalPinToPort(pin);
+ 106:	fc 01       	movw	r30, r24
+ 108:	e6 5b       	subi	r30, 0xB6	; 182
+ 10a:	ff 4f       	sbci	r31, 0xFF	; 255
+ 10c:	e4 91       	lpm	r30, Z
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring_digital.c:172
+
+  if (port == NOT_A_PIN) return LOW;
+ 10e:	ee 23       	and	r30, r30
+ 110:	51 f1       	breq	.+84     	; 0x166 <digitalRead+0x7e>
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring_digital.c:176
+
+  // If the pin that support PWM output, we need to turn it off
+  // before getting a digital reading.
+  if (timer != NOT_ON_TIMER) turnOffPWM(timer);
+ 112:	22 23       	and	r18, r18
+ 114:	29 f0       	breq	.+10     	; 0x120 <digitalRead+0x38>
+turnOffPWM():
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring_digital.c:67
+}
+
+static void turnOffPWM(uint8_t timer)
+{
+  #if defined(TCCR0A) && defined(COM0A1)
+  if( timer == TIMER0A){
+ 116:	21 30       	cpi	r18, 0x01	; 1
+ 118:	89 f4       	brne	.+34     	; 0x13c <digitalRead+0x54>
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring_digital.c:68
+    cbi(TCCR0A, COM0A1);
+ 11a:	85 b5       	in	r24, 0x25	; 37
+ 11c:	8f 77       	andi	r24, 0x7F	; 127
+ 11e:	85 bd       	out	0x25, r24	; 37
+digitalRead():
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring_digital.c:178
+
+  // If the pin that support PWM output, we need to turn it off
+  // before getting a digital reading.
+  if (timer != NOT_ON_TIMER) turnOffPWM(timer);
+
+  if (*portInputRegister(port) & bit) return HIGH;
+ 120:	f0 e0       	ldi	r31, 0x00	; 0
+ 122:	ee 0f       	add	r30, r30
+ 124:	ff 1f       	adc	r31, r31
+ 126:	e8 5d       	subi	r30, 0xD8	; 216
+ 128:	ff 4f       	sbci	r31, 0xFF	; 255
+ 12a:	a5 91       	lpm	r26, Z+
+ 12c:	b4 91       	lpm	r27, Z
+ 12e:	ec 91       	ld	r30, X
+ 130:	e3 23       	and	r30, r19
+ 132:	81 e0       	ldi	r24, 0x01	; 1
+ 134:	90 e0       	ldi	r25, 0x00	; 0
+ 136:	c9 f4       	brne	.+50     	; 0x16a <digitalRead+0x82>
+ 138:	80 e0       	ldi	r24, 0x00	; 0
+ 13a:	08 95       	ret
+turnOffPWM():
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring_digital.c:81
+    //cbi(TCCR0A, COM0B0);
+  } else
+  #endif
+
+  #if defined(TCCR1A) && defined(COM1A1)
+  if( timer == TIMER1A){
+ 13c:	23 30       	cpi	r18, 0x03	; 3
+ 13e:	31 f4       	brne	.+12     	; 0x14c <digitalRead+0x64>
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring_digital.c:82
+    cbi(TCCR1A, COM1A1);
+ 140:	80 91 80 00 	lds	r24, 0x0080	; 0x800080 <__EEPROM_REGION_LENGTH__+0x7f0080>
+ 144:	8f 77       	andi	r24, 0x7F	; 127
+ 146:	80 93 80 00 	sts	0x0080, r24	; 0x800080 <__EEPROM_REGION_LENGTH__+0x7f0080>
+ 14a:	ea cf       	rjmp	.-44     	; 0x120 <digitalRead+0x38>
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring_digital.c:115
+  #endif
+  } else
+  #endif
+
+  #if defined(TCCR1A) && defined(COM1B1)
+  if( timer == TIMER1B){
+ 14c:	24 30       	cpi	r18, 0x04	; 4
+ 14e:	41 f7       	brne	.-48     	; 0x120 <digitalRead+0x38>
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring_digital.c:116
+    cbi(TCCR1A, COM1B1);
+ 150:	80 91 80 00 	lds	r24, 0x0080	; 0x800080 <__EEPROM_REGION_LENGTH__+0x7f0080>
+ 154:	8f 7d       	andi	r24, 0xDF	; 223
+ 156:	80 93 80 00 	sts	0x0080, r24	; 0x800080 <__EEPROM_REGION_LENGTH__+0x7f0080>
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring_digital.c:119
+    //cbi(TCCR1A, COM1B0);
+  #ifdef OC1BV
+    cbi(TCCR1D, OC1BV);
+ 15a:	80 91 83 00 	lds	r24, 0x0083	; 0x800083 <__EEPROM_REGION_LENGTH__+0x7f0083>
+ 15e:	8f 7d       	andi	r24, 0xDF	; 223
+ 160:	80 93 83 00 	sts	0x0083, r24	; 0x800083 <__EEPROM_REGION_LENGTH__+0x7f0083>
+ 164:	dd cf       	rjmp	.-70     	; 0x120 <digitalRead+0x38>
+digitalRead():
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring_digital.c:172
+  if (pin&128) {pin=analogInputToDigitalPin((pin&127));}
+  uint8_t timer = digitalPinToTimer(pin);
+  uint8_t bit = digitalPinToBitMask(pin);
+  uint8_t port = digitalPinToPort(pin);
+
+  if (port == NOT_A_PIN) return LOW;
+ 166:	80 e0       	ldi	r24, 0x00	; 0
+ 168:	90 e0       	ldi	r25, 0x00	; 0
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring_digital.c:180
+  // before getting a digital reading.
+  if (timer != NOT_ON_TIMER) turnOffPWM(timer);
+
+  if (*portInputRegister(port) & bit) return HIGH;
+  return LOW;
+}
+ 16a:	08 95       	ret
+
+0000016c <__vector_11>:
+__vector_11():
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring.c:130
+#else
+
+#error Millis() timer not defined!
+
+#endif
+{
+ 16c:	1f 92       	push	r1
+ 16e:	0f 92       	push	r0
+ 170:	0f b6       	in	r0, 0x3f	; 63
+ 172:	0f 92       	push	r0
+ 174:	11 24       	eor	r1, r1
+ 176:	2f 93       	push	r18
+ 178:	3f 93       	push	r19
+ 17a:	8f 93       	push	r24
+ 17c:	9f 93       	push	r25
+ 17e:	af 93       	push	r26
+ 180:	bf 93       	push	r27
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring.c:133
+  // copy these to local variables so they can be stored in registers
+  // (volatile variables must be read from memory on every access)
+  unsigned long m = millis_timer_millis;
+ 182:	80 91 27 01 	lds	r24, 0x0127	; 0x800127 <millis_timer_millis>
+ 186:	90 91 28 01 	lds	r25, 0x0128	; 0x800128 <millis_timer_millis+0x1>
+ 18a:	a0 91 29 01 	lds	r26, 0x0129	; 0x800129 <millis_timer_millis+0x2>
+ 18e:	b0 91 2a 01 	lds	r27, 0x012A	; 0x80012a <millis_timer_millis+0x3>
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring.c:134
+  unsigned char f = millis_timer_fract;
+ 192:	30 91 26 01 	lds	r19, 0x0126	; 0x800126 <millis_timer_fract>
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring.c:146
+    f -= FRACT_MAX;
+    m += 1;
+  }
+...rmv */
+
+  f += FRACT_INC;
+ 196:	26 e0       	ldi	r18, 0x06	; 6
+ 198:	23 0f       	add	r18, r19
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring.c:148
+
+  if (f >= FRACT_MAX)
+ 19a:	2d 37       	cpi	r18, 0x7D	; 125
+ 19c:	68 f1       	brcs	.+90     	; 0x1f8 <__vector_11+0x8c>
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring.c:150
+  {
+    f -= FRACT_MAX;
+ 19e:	29 e8       	ldi	r18, 0x89	; 137
+ 1a0:	23 0f       	add	r18, r19
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring.c:152
+  m += 1;
+    m += MILLIS_INC;
+ 1a2:	03 96       	adiw	r24, 0x03	; 3
+ 1a4:	a1 1d       	adc	r26, r1
+ 1a6:	b1 1d       	adc	r27, r1
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring.c:159
+  else
+  {
+    m += MILLIS_INC;
+  }
+
+  millis_timer_fract = f;
+ 1a8:	20 93 26 01 	sts	0x0126, r18	; 0x800126 <millis_timer_fract>
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring.c:160
+  millis_timer_millis = m;
+ 1ac:	80 93 27 01 	sts	0x0127, r24	; 0x800127 <millis_timer_millis>
+ 1b0:	90 93 28 01 	sts	0x0128, r25	; 0x800128 <millis_timer_millis+0x1>
+ 1b4:	a0 93 29 01 	sts	0x0129, r26	; 0x800129 <millis_timer_millis+0x2>
+ 1b8:	b0 93 2a 01 	sts	0x012A, r27	; 0x80012a <millis_timer_millis+0x3>
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring.c:161
+  millis_timer_overflow_count++;
+ 1bc:	80 91 22 01 	lds	r24, 0x0122	; 0x800122 <millis_timer_overflow_count>
+ 1c0:	90 91 23 01 	lds	r25, 0x0123	; 0x800123 <millis_timer_overflow_count+0x1>
+ 1c4:	a0 91 24 01 	lds	r26, 0x0124	; 0x800124 <millis_timer_overflow_count+0x2>
+ 1c8:	b0 91 25 01 	lds	r27, 0x0125	; 0x800125 <millis_timer_overflow_count+0x3>
+ 1cc:	01 96       	adiw	r24, 0x01	; 1
+ 1ce:	a1 1d       	adc	r26, r1
+ 1d0:	b1 1d       	adc	r27, r1
+ 1d2:	80 93 22 01 	sts	0x0122, r24	; 0x800122 <millis_timer_overflow_count>
+ 1d6:	90 93 23 01 	sts	0x0123, r25	; 0x800123 <millis_timer_overflow_count+0x1>
+ 1da:	a0 93 24 01 	sts	0x0124, r26	; 0x800124 <millis_timer_overflow_count+0x2>
+ 1de:	b0 93 25 01 	sts	0x0125, r27	; 0x800125 <millis_timer_overflow_count+0x3>
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring.c:168
+
+//MICROSECONDS_PER_MILLIS_OVERFLOW=2048
+//MILLIS_INC=2
+//FRACT_INC=6
+//FRACT_MAX=125
+}
+ 1e2:	bf 91       	pop	r27
+ 1e4:	af 91       	pop	r26
+ 1e6:	9f 91       	pop	r25
+ 1e8:	8f 91       	pop	r24
+ 1ea:	3f 91       	pop	r19
+ 1ec:	2f 91       	pop	r18
+ 1ee:	0f 90       	pop	r0
+ 1f0:	0f be       	out	0x3f, r0	; 63
+ 1f2:	0f 90       	pop	r0
+ 1f4:	1f 90       	pop	r1
+ 1f6:	18 95       	reti
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring.c:156
+  m += 1;
+    m += MILLIS_INC;
+  }
+  else
+  {
+    m += MILLIS_INC;
+ 1f8:	02 96       	adiw	r24, 0x02	; 2
+ 1fa:	a1 1d       	adc	r26, r1
+ 1fc:	b1 1d       	adc	r27, r1
+ 1fe:	d4 cf       	rjmp	.-88     	; 0x1a8 <__vector_11+0x3c>
+
+00000200 <main>:
+main():
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/main.cpp:6
+#include <Arduino.h>
+
+int main(void)
+{
+  #ifdef TUNED_OSCCAL_VALUE
+  OSCCAL = TUNED_OSCCAL_VALUE; //set the oscillator calibration value based on the pins_arduino.h file. If this is not set, it will be optimised away
+ 200:	80 91 66 00 	lds	r24, 0x0066	; 0x800066 <__EEPROM_REGION_LENGTH__+0x7f0066>
+ 204:	80 93 66 00 	sts	0x0066, r24	; 0x800066 <__EEPROM_REGION_LENGTH__+0x7f0066>
+init():
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring.c:677
+  // In case the bootloader left our millis timer in a bad way
+  #if defined( HAVE_BOOTLOADER ) && HAVE_BOOTLOADER
+  // Ensure the timer is in the same state as power-up
+  #if (TIMER_TO_USE_FOR_MILLIS == 0) && defined(WGM01)
+  #ifdef TCCR0B
+  TCCR0B = 0;
+ 208:	16 bc       	out	0x26, r1	; 38
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring.c:678
+  TCCR0A = 0;
+ 20a:	15 bc       	out	0x25, r1	; 37
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring.c:683
+  #else
+  TCCR0A = 0;
+  #endif
+  // Reset the count to zero
+  TCNT0 = 0;
+ 20c:	17 bc       	out	0x27, r1	; 39
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring.c:685
+  // Set the output compare registers to zero
+  OCR0A = 0;
+ 20e:	18 bc       	out	0x28, r1	; 40
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring.c:706
+  TIMSK0=0;
+  TIFR0 |= ((1<<OCF0B) | (1<<OCF0A) | (1<<TOV0));
+  #else
+  // Disable all Timer0 interrupts
+  //TIMSK0 &= ~((1<<OCIE0A) | (1<<TOIE0));
+  TIMSK0=0;
+ 210:	10 92 6e 00 	sts	0x006E, r1	; 0x80006e <__EEPROM_REGION_LENGTH__+0x7f006e>
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring.c:708
+  // Clear the Timer0 interrupt flags
+  TIFR0 |= ((1<<OCF0A) | (1<<TOV0));
+ 214:	85 b3       	in	r24, 0x15	; 21
+ 216:	83 60       	ori	r24, 0x03	; 3
+ 218:	85 bb       	out	0x15, r24	; 21
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring.c:802
+  #endif
+  #endif
+
+  // Use the Millis Timer for fast PWM (unless it doesn't have an output).
+  #if (TIMER_TO_USE_FOR_MILLIS == 0) && defined(WGM01)
+  sbi(TCCR0A, WGM01);
+ 21a:	85 b5       	in	r24, 0x25	; 37
+ 21c:	82 60       	ori	r24, 0x02	; 2
+ 21e:	85 bd       	out	0x25, r24	; 37
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring.c:803
+  sbi(TCCR0A, WGM00);
+ 220:	85 b5       	in	r24, 0x25	; 37
+ 222:	81 60       	ori	r24, 0x01	; 1
+ 224:	85 bd       	out	0x25, r24	; 37
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring.c:826
+  #endif
+
+  // Millis timer is always processor clock divided by MillisTimer_Prescale_Value (64)
+  #if (TIMER_TO_USE_FOR_MILLIS == 0)
+   #ifdef TCCR0B
+    TCCR0B = (TCCR0B & ~((1<<CS02)|(1<<CS01)|(1<<CS00))) | (MillisTimer_Prescale_Index << CS00);
+ 226:	86 b5       	in	r24, 0x26	; 38
+ 228:	88 7f       	andi	r24, 0xF8	; 248
+ 22a:	84 60       	ori	r24, 0x04	; 4
+ 22c:	86 bd       	out	0x26, r24	; 38
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring.c:838
+  TCCR1B = (TCCR1B & ~((1<<CS13)|(1<<CS12)|(1<<CS11)|(1<<CS10))) | (MillisTimer_Prescale_Index << CS10);
+  #elif (TIMER_TO_USE_FOR_MILLIS == 1)
+  TCCR1B = (TCCR1B & ~((1<<CS12)|(1<<CS11)|(1<<CS10))) | (MillisTimer_Prescale_Index << CS10);
+  #endif
+  // this needs to be called before setup() or some functions won't work there
+  sei();
+ 22e:	78 94       	sei
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring.c:844
+
+  // Enable the overlow interrupt (this is the basic system tic-toc for millis)
+  #if defined(TIMSK) && defined(TOIE0) && (TIMER_TO_USE_FOR_MILLIS == 0)
+  sbi(TIMSK, TOIE0);
+  #elif defined(TIMSK0) && defined(TOIE0) && (TIMER_TO_USE_FOR_MILLIS == 0)
+  sbi(TIMSK0, TOIE0);
+ 230:	80 91 6e 00 	lds	r24, 0x006E	; 0x80006e <__EEPROM_REGION_LENGTH__+0x7f006e>
+ 234:	81 60       	ori	r24, 0x01	; 1
+ 236:	80 93 6e 00 	sts	0x006E, r24	; 0x80006e <__EEPROM_REGION_LENGTH__+0x7f006e>
+initToneTimerInternal():
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring.c:523
+  sbi(TCCR1C, PWM1D);
+  cbi(TCCR1D, WGM11);
+  sbi(TCCR1D, WGM10);
+  TCCR1B |= (ToneTimer_Prescale_Index << CS10);
+  #elif (TIMER_TO_USE_FOR_TONE == 1)
+  TCCR1B &= ~((1<<CS12) | (1<<CS11) | (1<<CS10)); //stop the clock to configure
+ 23a:	80 91 81 00 	lds	r24, 0x0081	; 0x800081 <__EEPROM_REGION_LENGTH__+0x7f0081>
+ 23e:	88 7f       	andi	r24, 0xF8	; 248
+ 240:	80 93 81 00 	sts	0x0081, r24	; 0x800081 <__EEPROM_REGION_LENGTH__+0x7f0081>
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring.c:525
+  // Use the Tone Timer for phase correct PWM
+  sbi(TCCR1A, WGM10);
+ 244:	80 91 80 00 	lds	r24, 0x0080	; 0x800080 <__EEPROM_REGION_LENGTH__+0x7f0080>
+ 248:	81 60       	ori	r24, 0x01	; 1
+ 24a:	80 93 80 00 	sts	0x0080, r24	; 0x800080 <__EEPROM_REGION_LENGTH__+0x7f0080>
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring.c:526
+  cbi(TCCR1A, WGM11);
+ 24e:	80 91 80 00 	lds	r24, 0x0080	; 0x800080 <__EEPROM_REGION_LENGTH__+0x7f0080>
+ 252:	8d 7f       	andi	r24, 0xFD	; 253
+ 254:	80 93 80 00 	sts	0x0080, r24	; 0x800080 <__EEPROM_REGION_LENGTH__+0x7f0080>
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring.c:527
+  cbi(TCCR1B, WGM12);
+ 258:	80 91 81 00 	lds	r24, 0x0081	; 0x800081 <__EEPROM_REGION_LENGTH__+0x7f0081>
+ 25c:	87 7f       	andi	r24, 0xF7	; 247
+ 25e:	80 93 81 00 	sts	0x0081, r24	; 0x800081 <__EEPROM_REGION_LENGTH__+0x7f0081>
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring.c:528
+  cbi(TCCR1B, WGM13);
+ 262:	80 91 81 00 	lds	r24, 0x0081	; 0x800081 <__EEPROM_REGION_LENGTH__+0x7f0081>
+ 266:	8f 7e       	andi	r24, 0xEF	; 239
+ 268:	80 93 81 00 	sts	0x0081, r24	; 0x800081 <__EEPROM_REGION_LENGTH__+0x7f0081>
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring.c:529
+  TCCR1B |= (ToneTimer_Prescale_Index << CS10); //set the clock
+ 26c:	80 91 81 00 	lds	r24, 0x0081	; 0x800081 <__EEPROM_REGION_LENGTH__+0x7f0081>
+ 270:	83 60       	ori	r24, 0x03	; 3
+ 272:	80 93 81 00 	sts	0x0081, r24	; 0x800081 <__EEPROM_REGION_LENGTH__+0x7f0081>
+init():
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring.c:862
+
+  // Initialize the ADC
+  #if defined( INITIALIZE_ANALOG_TO_DIGITAL_CONVERTER ) && INITIALIZE_ANALOG_TO_DIGITAL_CONVERTER
+  #if defined(ADCSRA)
+    // set a2d prescale factor
+  ADCSRA = (ADCSRA & ~((1<<ADPS2)|(1<<ADPS1)|(1<<ADPS0))) | (ADC_ARDUINO_PRESCALER << ADPS0) | (1<<ADEN);
+ 276:	80 91 7a 00 	lds	r24, 0x007A	; 0x80007a <__EEPROM_REGION_LENGTH__+0x7f007a>
+ 27a:	88 77       	andi	r24, 0x78	; 120
+ 27c:	86 68       	ori	r24, 0x86	; 134
+ 27e:	80 93 7a 00 	sts	0x007A, r24	; 0x80007a <__EEPROM_REGION_LENGTH__+0x7f007a>
+C:\Users\caleb\AppData\Local\Arduino15\packages\ATTinyCore\hardware\avr\1.3.2\cores\tiny/wiring.c:864
+    // enable a2d conversions
+    sbi(ADCSRA, ADEN);
+ 282:	80 91 7a 00 	lds	r24, 0x007A	; 0x80007a <__EEPROM_REGION_LENGTH__+0x7f007a>
+ 286:	80 68       	ori	r24, 0x80	; 128
+ 288:	80 93 7a 00 	sts	0x007A, r24	; 0x80007a <__EEPROM_REGION_LENGTH__+0x7f007a>
+setup():
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:38
+int outputb = 0;
+
+int val = 0;   // variable for reading the pin status (should be zero)
+
+void setup() {
+  pinMode(P1B1, INPUT_PULLUP);     // Declares inputs with internal pullup.
+ 28c:	80 e0       	ldi	r24, 0x00	; 0
+ 28e:	fe de       	rcall	.-516    	; 0x8c <pinMode.constprop.0>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:39
+  pinMode(P1ST, INPUT_PULLUP);
+ 290:	88 e0       	ldi	r24, 0x08	; 8
+ 292:	fc de       	rcall	.-520    	; 0x8c <pinMode.constprop.0>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:40
+  pinMode(P1B2, INPUT_PULLUP);          
+ 294:	81 e0       	ldi	r24, 0x01	; 1
+ 296:	fa de       	rcall	.-524    	; 0x8c <pinMode.constprop.0>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:41
+  pinMode(P1B3, INPUT_PULLUP);
+ 298:	82 e0       	ldi	r24, 0x02	; 2
+ 29a:	f8 de       	rcall	.-528    	; 0x8c <pinMode.constprop.0>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:42
+  pinMode(P2B1, INPUT_PULLUP);   
+ 29c:	86 e0       	ldi	r24, 0x06	; 6
+ 29e:	f6 de       	rcall	.-532    	; 0x8c <pinMode.constprop.0>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:43
+  pinMode(P2ST, INPUT_PULLUP);
+ 2a0:	87 e0       	ldi	r24, 0x07	; 7
+ 2a2:	f4 de       	rcall	.-536    	; 0x8c <pinMode.constprop.0>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:44
+  pinMode(P2B2, INPUT_PULLUP);          
+ 2a4:	85 e0       	ldi	r24, 0x05	; 5
+ 2a6:	f2 de       	rcall	.-540    	; 0x8c <pinMode.constprop.0>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:45
+  pinMode(P2B3, INPUT_PULLUP);
+ 2a8:	84 e0       	ldi	r24, 0x04	; 4
+ 2aa:	f0 de       	rcall	.-544    	; 0x8c <pinMode.constprop.0>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:46
+  pinMode(ENABLE, INPUT_PULLUP);
+ 2ac:	8e e0       	ldi	r24, 0x0E	; 14
+ 2ae:	ee de       	rcall	.-548    	; 0x8c <pinMode.constprop.0>
+scaninputs():
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:103
+P2B3V = 0;
+ENVAL = 0;
+ 
+  val = digitalRead(P1ST);        // read input value from data line
+  if (val == LOW) {               // check if the data input is LOW (button pressed)
+  P1STV = 1;                      // store value of button state
+ 2b0:	c1 e0       	ldi	r28, 0x01	; 1
+ 2b2:	d0 e0       	ldi	r29, 0x00	; 0
+setoutputs():
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:65
+
+
+void setoutputs(){                 // Translates button values into port outputs
+              
+if (P1STO == 1)
+  outputb |= 2;                            
+ 2b4:	02 e0       	ldi	r16, 0x02	; 2
+ 2b6:	10 e0       	ldi	r17, 0x00	; 0
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:67
+if (P1SLO == 1)   
+  outputa |= 8;
+ 2b8:	88 e0       	ldi	r24, 0x08	; 8
+ 2ba:	e8 2e       	mov	r14, r24
+ 2bc:	f1 2c       	mov	r15, r1
+scaninputs():
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:82
+
+
+
+void scaninputs(){               // Scans input pins for buttonpresses.
+
+outputa = 0;
+ 2be:	10 92 21 01 	sts	0x0121, r1	; 0x800121 <outputa+0x1>
+ 2c2:	10 92 20 01 	sts	0x0120, r1	; 0x800120 <outputa>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:83
+outputb = 0;
+ 2c6:	10 92 1f 01 	sts	0x011F, r1	; 0x80011f <outputb+0x1>
+ 2ca:	10 92 1e 01 	sts	0x011E, r1	; 0x80011e <outputb>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:85
+
+P1STO = 0;                      
+ 2ce:	10 92 1d 01 	sts	0x011D, r1	; 0x80011d <P1STO+0x1>
+ 2d2:	10 92 1c 01 	sts	0x011C, r1	; 0x80011c <P1STO>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:86
+P1SLO = 0;
+ 2d6:	10 92 1b 01 	sts	0x011B, r1	; 0x80011b <P1SLO+0x1>
+ 2da:	10 92 1a 01 	sts	0x011A, r1	; 0x80011a <P1SLO>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:87
+P1HO = 0;
+ 2de:	10 92 19 01 	sts	0x0119, r1	; 0x800119 <P1HO+0x1>
+ 2e2:	10 92 18 01 	sts	0x0118, r1	; 0x800118 <P1HO>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:88
+P1B1V = 0;                    
+ 2e6:	10 92 0d 01 	sts	0x010D, r1	; 0x80010d <P1B1V+0x1>
+ 2ea:	10 92 0c 01 	sts	0x010C, r1	; 0x80010c <P1B1V>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:89
+P1STV = 0;
+ 2ee:	10 92 11 01 	sts	0x0111, r1	; 0x800111 <P1STV+0x1>
+ 2f2:	10 92 10 01 	sts	0x0110, r1	; 0x800110 <P1STV>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:90
+P1B2V = 0;                    
+ 2f6:	10 92 0b 01 	sts	0x010B, r1	; 0x80010b <P1B2V+0x1>
+ 2fa:	10 92 0a 01 	sts	0x010A, r1	; 0x80010a <P1B2V>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:91
+P1B3V = 0;
+ 2fe:	10 92 03 01 	sts	0x0103, r1	; 0x800103 <P1B3V+0x1>
+ 302:	10 92 02 01 	sts	0x0102, r1	; 0x800102 <P1B3V>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:92
+P2STO = 0;                      
+ 306:	10 92 17 01 	sts	0x0117, r1	; 0x800117 <P2STO+0x1>
+ 30a:	10 92 16 01 	sts	0x0116, r1	; 0x800116 <P2STO>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:93
+P2SLO = 0;
+ 30e:	10 92 15 01 	sts	0x0115, r1	; 0x800115 <P2SLO+0x1>
+ 312:	10 92 14 01 	sts	0x0114, r1	; 0x800114 <P2SLO>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:94
+P2HO = 0;
+ 316:	10 92 13 01 	sts	0x0113, r1	; 0x800113 <P2HO+0x1>
+ 31a:	10 92 12 01 	sts	0x0112, r1	; 0x800112 <P2HO>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:95
+P2B1V = 0;                    
+ 31e:	10 92 07 01 	sts	0x0107, r1	; 0x800107 <P2B1V+0x1>
+ 322:	10 92 06 01 	sts	0x0106, r1	; 0x800106 <P2B1V>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:96
+P2STV = 0;
+ 326:	10 92 0f 01 	sts	0x010F, r1	; 0x80010f <P2STV+0x1>
+ 32a:	10 92 0e 01 	sts	0x010E, r1	; 0x80010e <P2STV>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:97
+P2B2V = 0;                    
+ 32e:	10 92 05 01 	sts	0x0105, r1	; 0x800105 <P2B2V+0x1>
+ 332:	10 92 04 01 	sts	0x0104, r1	; 0x800104 <P2B2V>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:98
+P2B3V = 0;
+ 336:	10 92 01 01 	sts	0x0101, r1	; 0x800101 <_edata+0x1>
+ 33a:	10 92 00 01 	sts	0x0100, r1	; 0x800100 <_edata>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:99
+ENVAL = 0;
+ 33e:	10 92 09 01 	sts	0x0109, r1	; 0x800109 <ENVAL+0x1>
+ 342:	10 92 08 01 	sts	0x0108, r1	; 0x800108 <ENVAL>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:101
+ 
+  val = digitalRead(P1ST);        // read input value from data line
+ 346:	88 e0       	ldi	r24, 0x08	; 8
+ 348:	cf de       	rcall	.-610    	; 0xe8 <digitalRead>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:102
+  if (val == LOW) {               // check if the data input is LOW (button pressed)
+ 34a:	89 2b       	or	r24, r25
+ 34c:	21 f4       	brne	.+8      	; 0x356 <__stack+0x57>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:103
+  P1STV = 1;                      // store value of button state
+ 34e:	d0 93 11 01 	sts	0x0111, r29	; 0x800111 <P1STV+0x1>
+ 352:	c0 93 10 01 	sts	0x0110, r28	; 0x800110 <P1STV>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:105
+  }
+  val = digitalRead(P1B1); 
+ 356:	80 e0       	ldi	r24, 0x00	; 0
+ 358:	c7 de       	rcall	.-626    	; 0xe8 <digitalRead>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:106
+  if (val == LOW) {       
+ 35a:	89 2b       	or	r24, r25
+ 35c:	21 f4       	brne	.+8      	; 0x366 <__stack+0x67>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:107
+  P1B1V = 1;
+ 35e:	d0 93 0d 01 	sts	0x010D, r29	; 0x80010d <P1B1V+0x1>
+ 362:	c0 93 0c 01 	sts	0x010C, r28	; 0x80010c <P1B1V>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:109
+  }
+  val = digitalRead(P1B2);
+ 366:	81 e0       	ldi	r24, 0x01	; 1
+ 368:	bf de       	rcall	.-642    	; 0xe8 <digitalRead>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:110
+  if (val == LOW) {       
+ 36a:	89 2b       	or	r24, r25
+ 36c:	21 f4       	brne	.+8      	; 0x376 <__stack+0x77>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:111
+  P1B2V = 1;
+ 36e:	d0 93 0b 01 	sts	0x010B, r29	; 0x80010b <P1B2V+0x1>
+ 372:	c0 93 0a 01 	sts	0x010A, r28	; 0x80010a <P1B2V>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:113
+  }
+  val = digitalRead(P1B3); 
+ 376:	82 e0       	ldi	r24, 0x02	; 2
+ 378:	b7 de       	rcall	.-658    	; 0xe8 <digitalRead>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:114
+  if (val == LOW) {      
+ 37a:	89 2b       	or	r24, r25
+ 37c:	21 f4       	brne	.+8      	; 0x386 <__stack+0x87>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:115
+  P1B3V = 1;
+ 37e:	d0 93 03 01 	sts	0x0103, r29	; 0x800103 <P1B3V+0x1>
+ 382:	c0 93 02 01 	sts	0x0102, r28	; 0x800102 <P1B3V>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:117
+  }     
+  val = digitalRead(P2ST);        
+ 386:	87 e0       	ldi	r24, 0x07	; 7
+ 388:	af de       	rcall	.-674    	; 0xe8 <digitalRead>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:118
+  if (val == LOW) {             
+ 38a:	89 2b       	or	r24, r25
+ 38c:	21 f4       	brne	.+8      	; 0x396 <__stack+0x97>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:119
+  P2STV = 1;                        
+ 38e:	d0 93 0f 01 	sts	0x010F, r29	; 0x80010f <P2STV+0x1>
+ 392:	c0 93 0e 01 	sts	0x010E, r28	; 0x80010e <P2STV>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:121
+  }
+  val = digitalRead(P2B1); 
+ 396:	86 e0       	ldi	r24, 0x06	; 6
+ 398:	a7 de       	rcall	.-690    	; 0xe8 <digitalRead>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:122
+  if (val == LOW) {       
+ 39a:	89 2b       	or	r24, r25
+ 39c:	21 f4       	brne	.+8      	; 0x3a6 <__stack+0xa7>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:123
+  P2B1V = 1;
+ 39e:	d0 93 07 01 	sts	0x0107, r29	; 0x800107 <P2B1V+0x1>
+ 3a2:	c0 93 06 01 	sts	0x0106, r28	; 0x800106 <P2B1V>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:125
+  }
+  val = digitalRead(P2B2);
+ 3a6:	85 e0       	ldi	r24, 0x05	; 5
+ 3a8:	9f de       	rcall	.-706    	; 0xe8 <digitalRead>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:126
+  if (val == LOW) {       
+ 3aa:	89 2b       	or	r24, r25
+ 3ac:	21 f4       	brne	.+8      	; 0x3b6 <__stack+0xb7>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:127
+  P2B2V = 1;
+ 3ae:	d0 93 05 01 	sts	0x0105, r29	; 0x800105 <P2B2V+0x1>
+ 3b2:	c0 93 04 01 	sts	0x0104, r28	; 0x800104 <P2B2V>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:129
+  }
+  val = digitalRead(P2B3); 
+ 3b6:	84 e0       	ldi	r24, 0x04	; 4
+ 3b8:	97 de       	rcall	.-722    	; 0xe8 <digitalRead>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:130
+  if (val == LOW) {      
+ 3ba:	89 2b       	or	r24, r25
+ 3bc:	21 f4       	brne	.+8      	; 0x3c6 <__stack+0xc7>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:131
+  P2B3V = 1;
+ 3be:	d0 93 01 01 	sts	0x0101, r29	; 0x800101 <_edata+0x1>
+ 3c2:	c0 93 00 01 	sts	0x0100, r28	; 0x800100 <_edata>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:133
+  }
+  val = digitalRead(ENABLE); 
+ 3c6:	8e e0       	ldi	r24, 0x0E	; 14
+ 3c8:	8f de       	rcall	.-738    	; 0xe8 <digitalRead>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:134
+  if (val == LOW) {      
+ 3ca:	89 2b       	or	r24, r25
+ 3cc:	21 f4       	brne	.+8      	; 0x3d6 <__stack+0xd7>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:135
+  ENVAL = 1;                    
+ 3ce:	d0 93 09 01 	sts	0x0109, r29	; 0x800109 <ENVAL+0x1>
+ 3d2:	c0 93 08 01 	sts	0x0108, r28	; 0x800108 <ENVAL>
+buttoncombos():
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:140
+  }
+}
+
+void buttoncombos(){
+if (P1STV == 1){
+ 3d6:	80 91 10 01 	lds	r24, 0x0110	; 0x800110 <P1STV>
+ 3da:	90 91 11 01 	lds	r25, 0x0111	; 0x800111 <P1STV+0x1>
+ 3de:	81 30       	cpi	r24, 0x01	; 1
+ 3e0:	91 05       	cpc	r25, r1
+ 3e2:	21 f4       	brne	.+8      	; 0x3ec <__stack+0xed>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:141
+  P1STO = 1;
+ 3e4:	90 93 1d 01 	sts	0x011D, r25	; 0x80011d <P1STO+0x1>
+ 3e8:	80 93 1c 01 	sts	0x011C, r24	; 0x80011c <P1STO>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:143
+}
+if (P2STV == 1){
+ 3ec:	20 91 0e 01 	lds	r18, 0x010E	; 0x80010e <P2STV>
+ 3f0:	30 91 0f 01 	lds	r19, 0x010F	; 0x80010f <P2STV+0x1>
+ 3f4:	21 30       	cpi	r18, 0x01	; 1
+ 3f6:	31 05       	cpc	r19, r1
+ 3f8:	09 f0       	breq	.+2      	; 0x3fc <__stack+0xfd>
+ 3fa:	73 c0       	rjmp	.+230    	; 0x4e2 <__LOCK_REGION_LENGTH__+0xe2>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:144
+  P2STO = 1;
+ 3fc:	30 93 17 01 	sts	0x0117, r19	; 0x800117 <P2STO+0x1>
+ 400:	20 93 16 01 	sts	0x0116, r18	; 0x800116 <P2STO>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:146
+}
+if (P1STV == 1 && (P1B1V == 1 && (P1B2V == 1 && (ENVAL == 1)))){       // Checks if p1 ST B1 and B2 are pressed
+ 404:	81 30       	cpi	r24, 0x01	; 1
+ 406:	91 05       	cpc	r25, r1
+ 408:	09 f5       	brne	.+66     	; 0x44c <__LOCK_REGION_LENGTH__+0x4c>
+ 40a:	40 91 0c 01 	lds	r20, 0x010C	; 0x80010c <P1B1V>
+ 40e:	50 91 0d 01 	lds	r21, 0x010D	; 0x80010d <P1B1V+0x1>
+ 412:	41 30       	cpi	r20, 0x01	; 1
+ 414:	51 05       	cpc	r21, r1
+ 416:	b1 f4       	brne	.+44     	; 0x444 <__LOCK_REGION_LENGTH__+0x44>
+ 418:	40 91 0a 01 	lds	r20, 0x010A	; 0x80010a <P1B2V>
+ 41c:	50 91 0b 01 	lds	r21, 0x010B	; 0x80010b <P1B2V+0x1>
+ 420:	41 30       	cpi	r20, 0x01	; 1
+ 422:	51 05       	cpc	r21, r1
+ 424:	79 f4       	brne	.+30     	; 0x444 <__LOCK_REGION_LENGTH__+0x44>
+ 426:	40 91 08 01 	lds	r20, 0x0108	; 0x800108 <ENVAL>
+ 42a:	50 91 09 01 	lds	r21, 0x0109	; 0x800109 <ENVAL+0x1>
+ 42e:	41 30       	cpi	r20, 0x01	; 1
+ 430:	51 05       	cpc	r21, r1
+ 432:	41 f4       	brne	.+16     	; 0x444 <__LOCK_REGION_LENGTH__+0x44>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:147
+  P1SLO = 1;                                            // Sets Select as pressed       
+ 434:	50 93 1b 01 	sts	0x011B, r21	; 0x80011b <P1SLO+0x1>
+ 438:	40 93 1a 01 	sts	0x011A, r20	; 0x80011a <P1SLO>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:148
+  P1STO = 0;
+ 43c:	10 92 1d 01 	sts	0x011D, r1	; 0x80011d <P1STO+0x1>
+ 440:	10 92 1c 01 	sts	0x011C, r1	; 0x80011c <P1STO>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:150
+}
+if (P2STV == 1 && (P2B1V == 1 && (P2B2V == 1 && (ENVAL == 1)))){     
+ 444:	21 30       	cpi	r18, 0x01	; 1
+ 446:	31 05       	cpc	r19, r1
+ 448:	09 f0       	breq	.+2      	; 0x44c <__LOCK_REGION_LENGTH__+0x4c>
+ 44a:	51 c0       	rjmp	.+162    	; 0x4ee <__LOCK_REGION_LENGTH__+0xee>
+ 44c:	40 91 06 01 	lds	r20, 0x0106	; 0x800106 <P2B1V>
+ 450:	50 91 07 01 	lds	r21, 0x0107	; 0x800107 <P2B1V+0x1>
+ 454:	41 30       	cpi	r20, 0x01	; 1
+ 456:	51 05       	cpc	r21, r1
+ 458:	c1 f4       	brne	.+48     	; 0x48a <__LOCK_REGION_LENGTH__+0x8a>
+ 45a:	40 91 04 01 	lds	r20, 0x0104	; 0x800104 <P2B2V>
+ 45e:	50 91 05 01 	lds	r21, 0x0105	; 0x800105 <P2B2V+0x1>
+ 462:	41 30       	cpi	r20, 0x01	; 1
+ 464:	51 05       	cpc	r21, r1
+ 466:	09 f0       	breq	.+2      	; 0x46a <__LOCK_REGION_LENGTH__+0x6a>
+ 468:	40 c0       	rjmp	.+128    	; 0x4ea <__LOCK_REGION_LENGTH__+0xea>
+ 46a:	40 91 08 01 	lds	r20, 0x0108	; 0x800108 <ENVAL>
+ 46e:	50 91 09 01 	lds	r21, 0x0109	; 0x800109 <ENVAL+0x1>
+ 472:	41 30       	cpi	r20, 0x01	; 1
+ 474:	51 05       	cpc	r21, r1
+ 476:	09 f0       	breq	.+2      	; 0x47a <__LOCK_REGION_LENGTH__+0x7a>
+ 478:	a6 c0       	rjmp	.+332    	; 0x5c6 <__LOCK_REGION_LENGTH__+0x1c6>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:151
+  P2SLO = 1;                      
+ 47a:	50 93 15 01 	sts	0x0115, r21	; 0x800115 <P2SLO+0x1>
+ 47e:	40 93 14 01 	sts	0x0114, r20	; 0x800114 <P2SLO>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:152
+  P2STO = 0;
+ 482:	10 92 17 01 	sts	0x0117, r1	; 0x800117 <P2STO+0x1>
+ 486:	10 92 16 01 	sts	0x0116, r1	; 0x800116 <P2STO>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:154
+}
+if (P1STV == 1 && (P1B2V == 1 && (P1B3V == 1 && (ENVAL == 1)))){       // Checks if p1 ST B3 and B4 are pressed
+ 48a:	01 97       	sbiw	r24, 0x01	; 1
+ 48c:	81 f1       	breq	.+96     	; 0x4ee <__LOCK_REGION_LENGTH__+0xee>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:158
+  P1HO = 1;                                             // Sets HOME as pressed
+  P1STO = 0;                                            // Sets Start as not pressed
+}
+if (P2STV == 1 && (P2B2V == 1 && (P2B3V == 1 && (ENVAL == 1)))){   
+ 48e:	80 91 04 01 	lds	r24, 0x0104	; 0x800104 <P2B2V>
+ 492:	90 91 05 01 	lds	r25, 0x0105	; 0x800105 <P2B2V+0x1>
+ 496:	01 97       	sbiw	r24, 0x01	; 1
+ 498:	c9 f4       	brne	.+50     	; 0x4cc <__LOCK_REGION_LENGTH__+0xcc>
+ 49a:	80 91 00 01 	lds	r24, 0x0100	; 0x800100 <_edata>
+ 49e:	90 91 01 01 	lds	r25, 0x0101	; 0x800101 <_edata+0x1>
+ 4a2:	01 97       	sbiw	r24, 0x01	; 1
+ 4a4:	99 f4       	brne	.+38     	; 0x4cc <__LOCK_REGION_LENGTH__+0xcc>
+ 4a6:	80 91 08 01 	lds	r24, 0x0108	; 0x800108 <ENVAL>
+ 4aa:	90 91 09 01 	lds	r25, 0x0109	; 0x800109 <ENVAL+0x1>
+ 4ae:	81 30       	cpi	r24, 0x01	; 1
+ 4b0:	91 05       	cpc	r25, r1
+ 4b2:	61 f4       	brne	.+24     	; 0x4cc <__LOCK_REGION_LENGTH__+0xcc>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:159
+  P2HO = 1;                       
+ 4b4:	90 93 13 01 	sts	0x0113, r25	; 0x800113 <P2HO+0x1>
+ 4b8:	80 93 12 01 	sts	0x0112, r24	; 0x800112 <P2HO>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:160
+  P2STO = 0;                       
+ 4bc:	10 92 17 01 	sts	0x0117, r1	; 0x800117 <P2STO+0x1>
+ 4c0:	10 92 16 01 	sts	0x0116, r1	; 0x800116 <P2STO>
+ 4c4:	03 c0       	rjmp	.+6      	; 0x4cc <__LOCK_REGION_LENGTH__+0xcc>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:158
+}
+if (P1STV == 1 && (P1B2V == 1 && (P1B3V == 1 && (ENVAL == 1)))){       // Checks if p1 ST B3 and B4 are pressed
+  P1HO = 1;                                             // Sets HOME as pressed
+  P1STO = 0;                                            // Sets Start as not pressed
+}
+if (P2STV == 1 && (P2B2V == 1 && (P2B3V == 1 && (ENVAL == 1)))){   
+ 4c6:	21 30       	cpi	r18, 0x01	; 1
+ 4c8:	31 05       	cpc	r19, r1
+ 4ca:	09 f3       	breq	.-62     	; 0x48e <__LOCK_REGION_LENGTH__+0x8e>
+setoutputs():
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:64
+}
+
+
+void setoutputs(){                 // Translates button values into port outputs
+              
+if (P1STO == 1)
+ 4cc:	80 91 1c 01 	lds	r24, 0x011C	; 0x80011c <P1STO>
+ 4d0:	90 91 1d 01 	lds	r25, 0x011D	; 0x80011d <P1STO+0x1>
+ 4d4:	01 97       	sbiw	r24, 0x01	; 1
+ 4d6:	51 f5       	brne	.+84     	; 0x52c <__LOCK_REGION_LENGTH__+0x12c>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:65
+  outputb |= 2;                            
+ 4d8:	10 93 1f 01 	sts	0x011F, r17	; 0x80011f <outputb+0x1>
+ 4dc:	00 93 1e 01 	sts	0x011E, r16	; 0x80011e <outputb>
+ 4e0:	25 c0       	rjmp	.+74     	; 0x52c <__LOCK_REGION_LENGTH__+0x12c>
+buttoncombos():
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:146
+  P1STO = 1;
+}
+if (P2STV == 1){
+  P2STO = 1;
+}
+if (P1STV == 1 && (P1B1V == 1 && (P1B2V == 1 && (ENVAL == 1)))){       // Checks if p1 ST B1 and B2 are pressed
+ 4e2:	81 30       	cpi	r24, 0x01	; 1
+ 4e4:	91 05       	cpc	r25, r1
+ 4e6:	91 f7       	brne	.-28     	; 0x4cc <__LOCK_REGION_LENGTH__+0xcc>
+ 4e8:	90 cf       	rjmp	.-224    	; 0x40a <__LOCK_REGION_LENGTH__+0xa>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:154
+}
+if (P2STV == 1 && (P2B1V == 1 && (P2B2V == 1 && (ENVAL == 1)))){     
+  P2SLO = 1;                      
+  P2STO = 0;
+}
+if (P1STV == 1 && (P1B2V == 1 && (P1B3V == 1 && (ENVAL == 1)))){       // Checks if p1 ST B3 and B4 are pressed
+ 4ea:	01 97       	sbiw	r24, 0x01	; 1
+ 4ec:	79 f7       	brne	.-34     	; 0x4cc <__LOCK_REGION_LENGTH__+0xcc>
+ 4ee:	80 91 0a 01 	lds	r24, 0x010A	; 0x80010a <P1B2V>
+ 4f2:	90 91 0b 01 	lds	r25, 0x010B	; 0x80010b <P1B2V+0x1>
+ 4f6:	01 97       	sbiw	r24, 0x01	; 1
+ 4f8:	31 f7       	brne	.-52     	; 0x4c6 <__LOCK_REGION_LENGTH__+0xc6>
+ 4fa:	80 91 02 01 	lds	r24, 0x0102	; 0x800102 <P1B3V>
+ 4fe:	90 91 03 01 	lds	r25, 0x0103	; 0x800103 <P1B3V+0x1>
+ 502:	01 97       	sbiw	r24, 0x01	; 1
+ 504:	01 f7       	brne	.-64     	; 0x4c6 <__LOCK_REGION_LENGTH__+0xc6>
+ 506:	80 91 08 01 	lds	r24, 0x0108	; 0x800108 <ENVAL>
+ 50a:	90 91 09 01 	lds	r25, 0x0109	; 0x800109 <ENVAL+0x1>
+ 50e:	81 30       	cpi	r24, 0x01	; 1
+ 510:	91 05       	cpc	r25, r1
+ 512:	c9 f6       	brne	.-78     	; 0x4c6 <__LOCK_REGION_LENGTH__+0xc6>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:155
+  P1HO = 1;                                             // Sets HOME as pressed
+ 514:	90 93 19 01 	sts	0x0119, r25	; 0x800119 <P1HO+0x1>
+ 518:	80 93 18 01 	sts	0x0118, r24	; 0x800118 <P1HO>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:156
+  P1STO = 0;                                            // Sets Start as not pressed
+ 51c:	10 92 1d 01 	sts	0x011D, r1	; 0x80011d <P1STO+0x1>
+ 520:	10 92 1c 01 	sts	0x011C, r1	; 0x80011c <P1STO>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:158
+}
+if (P2STV == 1 && (P2B2V == 1 && (P2B3V == 1 && (ENVAL == 1)))){   
+ 524:	21 30       	cpi	r18, 0x01	; 1
+ 526:	31 05       	cpc	r19, r1
+ 528:	09 f4       	brne	.+2      	; 0x52c <__LOCK_REGION_LENGTH__+0x12c>
+ 52a:	b1 cf       	rjmp	.-158    	; 0x48e <__LOCK_REGION_LENGTH__+0x8e>
+setoutputs():
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:66
+
+void setoutputs(){                 // Translates button values into port outputs
+              
+if (P1STO == 1)
+  outputb |= 2;                            
+if (P1SLO == 1)   
+ 52c:	80 91 1a 01 	lds	r24, 0x011A	; 0x80011a <P1SLO>
+ 530:	90 91 1b 01 	lds	r25, 0x011B	; 0x80011b <P1SLO+0x1>
+ 534:	01 97       	sbiw	r24, 0x01	; 1
+ 536:	21 f4       	brne	.+8      	; 0x540 <__LOCK_REGION_LENGTH__+0x140>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:67
+  outputa |= 8;
+ 538:	f0 92 21 01 	sts	0x0121, r15	; 0x800121 <outputa+0x1>
+ 53c:	e0 92 20 01 	sts	0x0120, r14	; 0x800120 <outputa>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:68
+if (P1HO == 1) 
+ 540:	80 91 18 01 	lds	r24, 0x0118	; 0x800118 <P1HO>
+ 544:	90 91 19 01 	lds	r25, 0x0119	; 0x800119 <P1HO+0x1>
+ 548:	01 97       	sbiw	r24, 0x01	; 1
+ 54a:	49 f4       	brne	.+18     	; 0x55e <__LOCK_REGION_LENGTH__+0x15e>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:69
+  outputb |= 8;    
+ 54c:	80 91 1e 01 	lds	r24, 0x011E	; 0x80011e <outputb>
+ 550:	90 91 1f 01 	lds	r25, 0x011F	; 0x80011f <outputb+0x1>
+ 554:	88 60       	ori	r24, 0x08	; 8
+ 556:	90 93 1f 01 	sts	0x011F, r25	; 0x80011f <outputb+0x1>
+ 55a:	80 93 1e 01 	sts	0x011E, r24	; 0x80011e <outputb>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:70
+if (P2STO == 1)
+ 55e:	80 91 16 01 	lds	r24, 0x0116	; 0x800116 <P2STO>
+ 562:	90 91 17 01 	lds	r25, 0x0117	; 0x800117 <P2STO+0x1>
+ 566:	01 97       	sbiw	r24, 0x01	; 1
+ 568:	49 f4       	brne	.+18     	; 0x57c <__LOCK_REGION_LENGTH__+0x17c>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:71
+  outputb |= 4;                            
+ 56a:	80 91 1e 01 	lds	r24, 0x011E	; 0x80011e <outputb>
+ 56e:	90 91 1f 01 	lds	r25, 0x011F	; 0x80011f <outputb+0x1>
+ 572:	84 60       	ori	r24, 0x04	; 4
+ 574:	90 93 1f 01 	sts	0x011F, r25	; 0x80011f <outputb+0x1>
+ 578:	80 93 1e 01 	sts	0x011E, r24	; 0x80011e <outputb>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:72
+if (P2SLO == 1)   
+ 57c:	80 91 14 01 	lds	r24, 0x0114	; 0x800114 <P2SLO>
+ 580:	90 91 15 01 	lds	r25, 0x0115	; 0x800115 <P2SLO+0x1>
+ 584:	01 97       	sbiw	r24, 0x01	; 1
+ 586:	49 f4       	brne	.+18     	; 0x59a <__LOCK_REGION_LENGTH__+0x19a>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:73
+  outputb |= 32;
+ 588:	80 91 1e 01 	lds	r24, 0x011E	; 0x80011e <outputb>
+ 58c:	90 91 1f 01 	lds	r25, 0x011F	; 0x80011f <outputb+0x1>
+ 590:	80 62       	ori	r24, 0x20	; 32
+ 592:	90 93 1f 01 	sts	0x011F, r25	; 0x80011f <outputb+0x1>
+ 596:	80 93 1e 01 	sts	0x011E, r24	; 0x80011e <outputb>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:74
+if (P2HO == 1) 
+ 59a:	80 91 12 01 	lds	r24, 0x0112	; 0x800112 <P2HO>
+ 59e:	90 91 13 01 	lds	r25, 0x0113	; 0x800113 <P2HO+0x1>
+ 5a2:	01 97       	sbiw	r24, 0x01	; 1
+ 5a4:	49 f4       	brne	.+18     	; 0x5b8 <__LOCK_REGION_LENGTH__+0x1b8>
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:75
+  outputb |= 16;    
+ 5a6:	80 91 1e 01 	lds	r24, 0x011E	; 0x80011e <outputb>
+ 5aa:	90 91 1f 01 	lds	r25, 0x011F	; 0x80011f <outputb+0x1>
+ 5ae:	80 61       	ori	r24, 0x10	; 16
+ 5b0:	90 93 1f 01 	sts	0x011F, r25	; 0x80011f <outputb+0x1>
+ 5b4:	80 93 1e 01 	sts	0x011E, r24	; 0x80011e <outputb>
+loop():
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:57
+  scaninputs();                    // Scans button inputs and records them to variables.
+  buttoncombos();                  // Checks for button combinations and stets values.
+  setoutputs();                    // Sets output values for port manipulation based on button input variables.
+  }
+
+  DDRA = outputa;                  // Sets PORTA outputs based on inputs
+ 5b8:	80 91 20 01 	lds	r24, 0x0120	; 0x800120 <outputa>
+ 5bc:	81 b9       	out	0x01, r24	; 1
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:58
+  DDRB = outputb;
+ 5be:	80 91 1e 01 	lds	r24, 0x011E	; 0x80011e <outputb>
+ 5c2:	84 b9       	out	0x04, r24	; 4
+ 5c4:	7c ce       	rjmp	.-776    	; 0x2be <main+0xbe>
+buttoncombos():
+Z:\Projects\JAMMA\Console JAMMAizer GitHub\Console-JAMMAizer\Code\Console_Jammaizer_Select_emu/Console_Jammaizer_Select_emu.ino:154
+}
+if (P2STV == 1 && (P2B1V == 1 && (P2B2V == 1 && (ENVAL == 1)))){     
+  P2SLO = 1;                      
+  P2STO = 0;
+}
+if (P1STV == 1 && (P1B2V == 1 && (P1B3V == 1 && (ENVAL == 1)))){       // Checks if p1 ST B3 and B4 are pressed
+ 5c6:	01 97       	sbiw	r24, 0x01	; 1
+ 5c8:	09 f0       	breq	.+2      	; 0x5cc <__LOCK_REGION_LENGTH__+0x1cc>
+ 5ca:	67 cf       	rjmp	.-306    	; 0x49a <__LOCK_REGION_LENGTH__+0x9a>
+ 5cc:	90 cf       	rjmp	.-224    	; 0x4ee <__LOCK_REGION_LENGTH__+0xee>
+
+000005ce <_exit>:
+exit():
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2278
+ 5ce:	f8 94       	cli
+
+000005d0 <__stop_program>:
+__stop_program():
+/home/jenkins-mingw32/workspace/avr-gcc-staging/label/Ubuntu14.04x64-mingw32/gcc-build/avr/avr25/libgcc/../../../../gcc/libgcc/config/avr/lib1funcs.S:2280
+ 5d0:	ff cf       	rjmp	.-2      	; 0x5d0 <__stop_program>
